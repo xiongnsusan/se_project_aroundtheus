@@ -38,6 +38,7 @@
   width: 21px;
   height: 18px;
   border: none;
+  transition: 0.2s ease;
 }
 
 .card__like-button :hover {
