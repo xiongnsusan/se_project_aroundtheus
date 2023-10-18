@@ -8,7 +8,7 @@
 
 **Intro**
 
-This project is called Around The U.S. This project is allowing us to get practice on coding using only Figma as our brief. Technologies used were Figma website, Triple Ten guide videos. Here is a link to my github:
+This project is called Around The U.S. This project is allowing us to get practice on coding using only Figma as our brief. Technologies used were Figma website, Triple Ten guide videos. Here is a link to my github: (https://github.com/xiongnsusan/se_project_aroundtheus.git)
 
 **Figma**
 
