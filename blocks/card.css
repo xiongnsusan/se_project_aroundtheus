@@ -17,6 +17,7 @@
   white-space: nowrap;
   overflow: hidden;
   margin-top: 0;
+  margin-bottom: 0;
 }
 
 .card__image {
@@ -36,7 +37,7 @@
 
 .card__like-button {
   background: transparent url(../images/inactive\ like.svg) center no-repeat;
-  width: 21px;
+  width: 23px;
   height: 18px;
   border: none;
   transition: 0.2s ease;

@@ -94,7 +94,7 @@
     flex-wrap: wrap;
     justify-content: center;
     width: 100%;
-    margin-top: 36px;
+    margin-top: 30px;
     margin-bottom: 36px;
   }
 
@@ -103,12 +103,13 @@
     max-width: 282px;
     font-size: 14px;
     text-align: center;
-    margin: 0;
+    margin-top: 14px;
   }
 
   .profile__edit-button {
     width: 18px;
     height: 18px;
+    margin: 4px 15px 14px 10px;
   }
 
   .profile__add-button {
