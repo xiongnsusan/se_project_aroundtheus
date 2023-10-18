@@ -35,12 +35,12 @@
   border-radius: 2px;
 }
 
-.profile__edit-button hover {
-  opacity: 0.7;
+.profile__edit-button:hover {
+  opacity: 0.3;
 }
 
-.profile__add-button hover {
-  opacity: 0.7;
+.profile__add-button:hover {
+  opacity: 0.3;
 }
 
 .profile__title {
@@ -121,13 +121,12 @@
     max-width: 196px;
     font-size: 22px;
     margin: 0;
-    line-height: normal;
+    line-height: 26px;
   }
 }
 @media screen and (min-width: 771px) and (max-width: 835px) {
   .profile__add-button {
     width: 50px;
-    height: 50px;
   }
 
   .profile__title {
