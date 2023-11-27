@@ -1,0 +1,117 @@
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  background-color: rgba(0, 0, 0, 0.5);
+  z-index: 999;
+  display: flex;
+  color: black;
+  padding: 0 19px;
+}
+
+.modal__heading {
+  width: 330px;
+  height: 23px;
+  margin-top: 0;
+  margin-bottom: 54px;
+  color: #000;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+}
+
+.modal__container {
+  padding: 36px;
+  max-width: 430px;
+  background-color: #fff;
+  margin: auto;
+  border-radius: 10px;
+  position: relative;
+  box-sizing: border-box;
+}
+
+.modal__close {
+  width: 40px;
+  height: 40px;
+  background-image: url(../images/Close\ Icon\ SVG.svg);
+  border: none;
+  background-color: transparent;
+  background-repeat: no-repeat;
+  background-size: contain;
+  position: absolute;
+  top: -45px;
+  right: -45px;
+}
+
+.modal__form {
+  display: flex;
+  flex-direction: column;
+  align-items: stretch;
+  gap: 29px;
+  color: #000;
+  width: 100%;
+}
+
+.modal__button {
+  border-radius: 2px;
+  background: #000;
+  width: 358px;
+  height: 50.152px;
+  flex-shrink: 0;
+  color: white;
+  text-align: center;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.modal__input {
+  border: 0;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  width: 358px;
+  height: 14px;
+  flex-shrink: 0;
+  color: black;
+  font-family: Inter, Arial, sans-serif;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+@media screen and (max-width: 620px) {
+  .modal__container {
+    max-width: 282px;
+    border-radius: 10px;
+    padding: 22px;
+  }
+
+  .modal__close {
+    width: 26px;
+    height: 26px;
+    top: -40px;
+    right: 0;
+  }
+
+  .modal__heading {
+    font-size: 18px;
+    width: 238px;
+  }
+
+  .modal__input {
+    width: 100%;
+  }
+
+  .modal__button {
+    font-size: 14px;
+    width: 100%;
+    height: 46px;
+    margin-bottom: 22px;
+  }
+}

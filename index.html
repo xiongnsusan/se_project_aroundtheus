@@ -44,7 +44,7 @@
                 class="card__image"
               />
               <div class="card__description">
-                <h2 class="card__title">Yosemite Valley kkkkkkkkkkkkkk</h2>
+                <h2 class="card__title">Yosemite Valley</h2>
                 <button class="card__like-button"></button>
               </div>
             </li>
@@ -67,8 +67,7 @@
               />
               <div class="card__description">
                 <h2 class="card__title">
-                  Bald Mountains kkkkkkkkkkkkkkkkkkkkkkkkkvvvvvvvv
-                </h2>
+                  Bald Mountains 
                 <button class="card__like-button"></button>
               </div>
             </li>
@@ -113,6 +112,32 @@
         <p class="footer__copyright">&copy; 2022 Around The U.S</p>
       </footer>
     </div>
+
+    <div class="modal" id="profile-edit-modal">
+      <div class="modal__container">
+        <button class="modal__close" id="modal-close-button"></button>
+        <h2 class="modal__heading">Edit Profile</h2>
+        <form class="modal__form">
+          <input 
+          type="text"
+          name="title"
+          id="title"
+           placeholder="Jacques-Cousteau"
+           class="modal__input"
+           />
+
+          <input 
+          type="text"
+          name="description"
+          id="description"
+           placeholder="Explorer"
+           class="modal__input"
+           />
+          <button class="modal__button">Save</button>
+        </form>
+      </div>
+    </div>
+
     <script src="./scripts/index.js"></script>
   </body>
 </html>
