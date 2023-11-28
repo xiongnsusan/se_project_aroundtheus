@@ -9,6 +9,7 @@
   display: flex;
   color: black;
   padding: 0 19px;
+  visibility: hidden;
 }
 
 .modal__heading {
@@ -32,6 +33,10 @@
   border-radius: 10px;
   position: relative;
   box-sizing: border-box;
+}
+.modal_opened {
+  display: flex;
+  visibility: visible;
 }
 
 .modal__close {
