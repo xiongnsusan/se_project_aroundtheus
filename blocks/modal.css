@@ -51,6 +51,10 @@
   cursor: pointer;
 }
 
+.modal__close:hover {
+  opacity: 0.06;
+}
+
 .modal__form {
   margin: 54px 36px 36.51px;
   display: flex;
